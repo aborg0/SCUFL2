@@ -18,6 +18,9 @@
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
+      <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
+        <property id="1083066089218" name="constraint" index="FLfZY" />
+      </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
         <property id="1083923523171" name="internalValue" index="1uS6qv" />
@@ -94,7 +97,7 @@
     </node>
     <node concept="1TJgyi" id="2RKis3UynUu" role="1TKVEl">
       <property role="TrG5h" value="sameBaseAs" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="250MIJNinKY" resolve="GlobalBundleIdentifier" />
     </node>
     <node concept="1TJgyj" id="2RKis3UyuSC" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -495,6 +498,10 @@
     <node concept="PrWs8" id="2RKis3U$Poq" role="PrDN$">
       <ref role="PrY4T" to="tpck:hWu5dyl" resolve="IContainer" />
     </node>
+  </node>
+  <node concept="Az7Fb" id="250MIJNinKY">
+    <property role="TrG5h" value="GlobalBundleIdentifier" />
+    <property role="FLfZY" value="(?i)http://ns.taverna.org.uk/2010/workflowBundle/[0-9a-f]{8}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{4}\\-[0-9a-f]{12}/" />
   </node>
 </model>
 

@@ -31,7 +31,7 @@
   </registry>
   <node concept="3nu82s" id="2RKis3UzG7B">
     <property role="TrG5h" value="Hello World workflow bundle" />
-    <property role="3nujtu" value="&quot;&quot;&quot;&quot;" />
+    <property role="3nujtu" value="http://ns.taverna.org.uk/2010/workflowBundle/28f7c554-4f35-401f-b34b-516e9a0ef731/" />
     <node concept="3nuJca" id="2RKis3UzG7C" role="3nuqvn">
       <property role="3nujsw" value="@@@" />
       <property role="3nuJ2$" value="@@@" />
